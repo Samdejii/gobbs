@@ -1,10 +1,11 @@
 import React from "react";
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import {Helmet} from 'react-helmet';
 
 class Home extends React.Component{
     render() {
         return (
-          <body>
+          <Helmet>
 <div class="container-fluid">
 
 <header id="header">
@@ -562,7 +563,7 @@ class Home extends React.Component{
   <script src="assets/js/main.js"></script>
 
         </div>
-        </body>
+        </Helmet>
         );
     }
 }
