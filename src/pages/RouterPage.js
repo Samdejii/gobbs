@@ -16,7 +16,7 @@ export default function RouterPage() {
     <div>
         <Router>
             <Routes>
-                <Route path="/index.html"  element={ <Home /> } />
+                <Route path="/"  element={ <Home /> } />
                 <Route path="/about" element={ <About /> } />
                 <Route path="/developer" element={ <Developer /> } />
                 <Route path="/HIT" element={ <Hit /> } />
